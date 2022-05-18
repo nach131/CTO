@@ -1,0 +1,78 @@
+[
+  {
+    "id": "615b7c72c074d61a2b816c37",
+    "transport": "train",
+    "travel": {
+      "id_t": "78A",
+      "seat": "45B",
+      "daparture": {
+        "date": "2021-08-19T19:39:10.000Z",
+        "city": "Madrid",
+        "location": "T1"
+      },
+      "arrival": {
+        "date": "2021-08-19T23:39:10.000Z",
+        "city": "Barcelona",
+        "location": "B2"
+      }
+    }
+  },
+  {
+    "id": "615b7c72c074d61a2b816c36",
+    "transport": "bus",
+    "travel": {
+      "id_t": "2321",
+      "seat": "no asignado",
+      "daparture": {
+        "date": "2021-08-22T06:19:44.000Z",
+        "city": "Barcelona",
+        "location": "Aeropuerto Barcelona"
+      },
+      "arrival": {
+        "date": "2021-08-22T06:22:00.000Z",
+        "city": "Gerona",
+        "location": "Aeropuerto Gerona"
+      }
+    }
+  },
+  {
+    "id": "2021-08-20T14:34:26.000Z",
+    "transport": "flight",
+    "travel": {
+      "id_t": "SK455",
+      "puerta": "45B",
+      "seat": "3A",
+      "entrega_equipaje": "344",
+      "daparture": {
+        "date": "2021-12-22T06:16:44.000Z",
+        "city": "Gerona",
+        "location": "Aeropuerto Barcelona"
+      },
+      "arrival": {
+        "date": "2021-128-22T06:20:00.000Z",
+        "city": "Estocolmo",
+        "location": "Aeropuerto Gerona"
+      }
+    }
+  },
+  {
+    "id": "2021-09-03T17:53:43.000Z",
+    "transport": "flight",
+    "travel": {
+      "id_t": "SK22",
+      "puerta": "22",
+      "seat": "7B",
+      "entrega_equipaje": "344",
+      "daparture": {
+        "date": "2021-12-22T06:16:44.000Z",
+        "city": "Estocolmo",
+        "location": "H3"
+      },
+      "arrival": {
+        "date": "2021-128-22T06:20:00.000Z",
+        "city": "New York",
+        "location": "JFK"
+      }
+    }
+  }
+]

@@ -1,0 +1,45 @@
+{
+  "name": "42-Barcelona-Telefonica-prueba",
+  "version": "3.0.0",
+  "description": "Mongo Atlas Server local G2",
+  "main": "index.js",
+  "scripts": {
+    "build": "npm --prefix ../ NO CUMPILA",
+    "lint": "eslint .",
+    "start": "node app/index.js",
+    "puerto": "./puerto.sh",
+    "dev": "nodemon app/",
+    "devp": "npm run puerto && nodemon app/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nach131"
+  },
+  "author": "nach131",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nach131/"
+  },
+  "homepage": "https://github.com/nach131/",
+  "dependencies": {
+    "axios": "0.22.0",
+    "cors": "2.8.5",
+    "dotenv": "10.0.0",
+    "express": "4.17.1",
+    "mongoose": "5.13.7",
+    "morgan": "1.10.0",
+    "node-cron": "3.0.0",
+    "nodemon": "2.0.12",
+    "mongoose-paginate": "5.0.3"
+  },
+  "devDependencies": {
+    "eslint-config-standard": "16.0.3",
+    "eslint-plugin-import": "2.24.1",
+    "eslint-plugin-node": "11.1.0",
+    "eslint-plugin-promise": "5.1.0",
+    "standard": "16.0.3"
+  },
+  "eslintConfig": {
+    "extends": "./node_modules/standard/eslintrc.json"
+  }
+}
